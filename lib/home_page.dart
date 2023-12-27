@@ -66,7 +66,7 @@ class HomePageState extends State<HomePage> {
               style: new TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.purple),
+                  color: Colors.green),
             ),
             new TextField(
               keyboardType: TextInputType.number,
@@ -86,12 +86,12 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("+"),
-                  color: Colors.greenAccent,
+                  color: Colors.yellowAccent,
                   onPressed: doAddition,
                 ),
                 new MaterialButton(
                   child: new Text("-"),
-                  color: Colors.greenAccent,
+                  color: Colors.yellowAccent,
                   onPressed: doSub,
                 ),
               ],
@@ -104,12 +104,12 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("*"),
-                  color: Colors.greenAccent,
+                  color: Colors.yellowAccent,
                   onPressed: doMul,
                 ),
                 new MaterialButton(
                   child: new Text("/"),
-                  color: Colors.greenAccent,
+                  color: Colors.yellowAccent,
                   onPressed: doDiv,
                 ),
               ],
@@ -122,7 +122,7 @@ class HomePageState extends State<HomePage> {
               children: <Widget>[
                 new MaterialButton(
                   child: new Text("Clear"),
-                  color: Colors.greenAccent,
+                  color: const Color.fromARGB(255, 255, 17, 0),
                   onPressed: doClear,
                 ),
               ],
